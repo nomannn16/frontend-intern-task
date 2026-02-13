@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  background-color: #f4f4f4; /* your hero background */
+  padding: 80px 0;  /* vertical padding only */
+}
+
+.hero-container {
+  max-width: 1200px;  /* keeps content centered */
+  margin: 0 auto;     /* center horizontally */
+  padding: 0 20px;    /* small mobile spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-right img {
+  width: 450px;
+}
